@@ -15,18 +15,21 @@
 
 Ghi việc cụ thể + kết quả cụ thể. Không ghi chung chung kiểu "tham gia thảo luận".
 
-| Hoạt động | Tôi đã làm gì? (việc cụ thể) | Kết quả / ảnh hưởng tới nhóm |
-|---|---|---|
-| Scan cá nhân | | |
-| Pitch Problem Card | | |
-| Challenge bài của bạn khác | | |
-| Gom trùng / cluster | | |
-| Chọn candidate problem | | |
-| Validation / research | | |
-| Workflow nhóm | | |
-| Problem Statement | | |
-| Rule / Workflow / Agent | | |
-| Decision | | |
+## Tôi đã tham gia vào phần nào?
+
+| Hoạt động| Tôi đã làm gì?  | Kết quả / ảnh hưởng       |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |----------------------------------------------------------------------------------------------------------------- |
+| Scan cá nhân| Tôi tự rà soát công việc thực tế của mình và xác định các vấn đề liên quan đến việc thu thập dữ liệu, đối chiếu số liệu, theo dõi camera và tổng hợp Báo cáo hoạt động hàng ngày.| Tôi đưa ra các candidate problem cụ thể để nhóm có thêm phương án trong quá trình convergence.|
+| Pitch Problem Card| Tôi trình bày Problem Card mà mình lựa chọn, tập trung vào quy trình tổng hợp Báo cáo hoạt động hàng ngày từ nhiều nguồn dữ liệu, actor, bottleneck và thời gian thực hiện.| Giúp nhóm có thêm một candidate để so sánh với các problem của các thành viên khác.|
+| Challenge bài của bạn khác | Tôi tham gia đặt câu hỏi và phản biện các candidate problem, đặc biệt về việc bottleneck nằm ở đâu và giải pháp có thực sự cần AI hay không.| Giúp nhóm nhìn problem cụ thể hơn và tránh chọn giải pháp AI/Agent trước khi xác định rõ pain point.|
+| Gom trùng / cluster  | Tôi cùng các thành viên rà soát những candidate có nội dung tương đồng, đặc biệt các problem liên quan đến nhập liệu, tổng hợp và xử lý báo cáo. | Giúp nhóm giảm các candidate trùng lặp và dễ dàng shortlist problem phù hợp hơn. |
+| Chọn candidate problem  | Tôi tham gia thảo luận và đánh giá các candidate dựa trên actor, workflow, bottleneck, impact và khả năng triển khai trong phạm vi bài lab. | Tôi cùng nhóm hội tụ về một candidate problem chung để tiếp tục phát triển thành Problem Statement.|
+| Validation / research| Tôi tham gia đọc và tổng hợp các thông tin/evidence mà nhóm thu thập được để phục vụ việc viết Problem Statement. | Các thông tin validation giúp nội dung Problem Statement có cơ sở rõ hơn thay vì chỉ mô tả một ý tưởng giải pháp. |
+| Workflow nhóm| Với vai trò Writer, tôi không phụ trách chính việc vẽ workflow nhưng sử dụng workflow do nhóm xây dựng để xác định actor, các bước xử lý, bottleneck và điểm can thiệp khi viết Problem Statement. | Workflow được chuyển thành các thông tin có cấu trúc để đưa vào Problem Statement và bản nộp cuối.|
+| Problem Statement | Đây là phần tôi đóng góp chính. Tôi viết và chỉnh sửa Problem Statement v0/v1, làm rõ Actor, Workflow, Bottleneck, Impact, Success Metric, Boundary và AI intervention point.  | Giúp nhóm chuyển candidate problem thành một Problem Statement cụ thể, có metric và boundary để đánh giá.|
+| Rule / Workflow / Agent | Tôi tham gia tổng hợp kết quả thảo luận của nhóm về Rule, Workflow và Agent, sau đó đưa phần quyết định này vào bản Problem Statement/bản nộp.| Bản nộp thể hiện được sự khác biệt giữa các mức tự động hóa và lý do nhóm lựa chọn mức phù hợp.|
+| Decision| Tôi tổng hợp các kết luận cuối của nhóm và đưa vào bản nộp, bao gồm lý do lựa chọn, điều kiện triển khai và các điểm cần kiểm chứng.| Giúp nhóm có một bản final nhất quán, đầy đủ từ problem → workflow → metric → AI approach → decision.  |
+
 
 **Dấu tay rõ nhất của tôi trong artifact cuối (1-2 câu):**
 
