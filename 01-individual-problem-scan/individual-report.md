@@ -18,20 +18,20 @@
 
 ## Phase 1 — Scan 5+ problems (tối thiểu 5, khuyến khích 8-10)
 
-**Cách điền:** mỗi dòng = việc gì + ai chịu + đo bằng gì. Cột `Dấu hiệu thật` bắt buộc có số: mất bao lâu (bấm giờ mấy lần), mấy lần/tuần, bao nhiêu người gặp, log/ticket/quote nào.
+**Cách điền:** mỗi dòng = việc gì + ai chịu + đo bằng gì. Cột `Dấu hiệu thật` có số liệu về thời gian, tần suất hoặc khối lượng công việc.
 
-| #  | Lăng kính| Problem quan sát được| Ai chịu ảnh hưởng?| Dấu hiệu thật (số + bằng chứng)|
-| -- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| 1 | Lặp lại| Mỗi cuối ngày phải thu thập số liệu vận hành từ BE tại nhiều trạm để làm báo cáo| Nhân viên IT| Thực hiện 1 lần/ngày, khoảng 10 trạm, mất khoảng 15 phút/lần|
-| 2 | Tốn thời gian| Phải đối chiếu số liệu BE với file báo cáo trước khi tổng hợp để tránh sai lệch | Nhân viên IT| Mất khoảng 15 phút/ngày, trung bình kiểm tra 30–40 dòng số liệu|
-| 3 | Lặp lại| Phải kiểm tra tình trạng camera theo các khung giờ được phân công/random| Nhân viên IT/vận hành| Khoảng 4 lần/ngày, mỗi lần 5–7 phút, theo dõi khoảng 20 camera/trạm|
-| 4 | Tốn thời gian| Khi phát hiện camera hoặc dữ liệu bất thường, phải kiểm tra lại thông tin trước khi ghi nhận sự cố| Nhân viên IT| Giả lập 20–30 trường hợp/ngày, mỗi trường hợp mất 5–10 phút để xác minh|
-| 5  lại thủ công| Nhân viên IT + quản lý| Khoảng 3–5 sự cố/ngày, thông tin được ghi nhận từ 2–3 nguồn khác nhau|
-| 6 | Lặp lại| Phải tổng hợp tình hình nhân sự vận hành tại các tuyến vào báo cáo cuối ngày | Nhân viên IT + quản lý vận hành | Thực hiện 1 lần/ngày, theo dõi khoảng 5–10 tuyến, mất khoảng 10 phút|
-| 7 | Tốn thời gian| Phải chuyển các số liệu và thông tin đã thu thập sang mẫu Báo cáo hoạt động hàng ngày| Nhân viên IT| Mất khoảng 10 phút/ngày, phần lớn thao tác là copy/paste và format|
-| 8 | AI có thể tốt hơn| Từ nhiều dữ liệu sự cố và vận hành, việc xác định điểm bất thường hoặc thông tin cần chú ý chưa được tự động tổng hợp| Nhân viên IT + quản lý| Mỗi ngày có khoảng 3–5 sự cố/thông tin cần xem xét, mất khoảng 10 phút để tổng hợp và xác định điểm đáng chú ý |
-| 9 | Pain từ người khác| Quản lý đôi khi phải hỏi lại thông tin chi tiết của sự cố hoặc số liệu trong báo cáo| Quản lý + nhân viên IT| Giả lập 1–2 lần hỏi lại/tuần, thường liên quan đến thời gian, nguyên nhân hoặc trạng thái sự cố|
-| 10 | Lặp lại / Tốn thời gian | Toàn bộ quy trình tổng hợp Báo cáo hoạt động hàng ngày phải thực hiện thủ công dù cấu trúc báo cáo gần như giống nhau mỗi ngày | Nhân viên IT | Thực hiện 5 ngày/tuần, tổng thời gian khoảng 60 phút/ngày, tương đương 5 giờ/tuần |
+| #  | Lăng kính| Problem quan sát được  | Ai chịu ảnh hưởng? | Dấu hiệu thật (số + bằng chứng) |
+| -- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| 1  | Lặp lại  | Mỗi cuối ngày phải thu thập số liệu vận hành từ BE tại nhiều trạm để làm báo cáo.  | Nhân viên IT | Thực hiện 1 lần/ngày, khoảng 10 trạm, mất khoảng 15 phút/lần.  |
+| 2  | Tốn thời gian   | Phải đối chiếu số liệu BE với file báo cáo trước khi tổng hợp để tránh sai lệch.   | Nhân viên IT | Mất khoảng 15 phút/ngày, trung bình kiểm tra 30–40 dòng số liệu.   |
+| 3  | Lặp lại  | Phải kiểm tra tình trạng camera theo các khung giờ được phân công hoặc kiểm tra ngẫu nhiên.   | Nhân viên IT/vận hành   | Khoảng 4 lần/ngày, mỗi lần 5–7 phút, theo dõi khoảng 20 camera/trạm.  |
+| 4  | Tốn thời gian   | Khi phát hiện camera hoặc dữ liệu có dấu hiệu bất thường, phải kiểm tra lại thông tin trước khi ghi nhận sự cố.  | Nhân viên IT | Có khoảng 20–30 trường hợp/ngày cần xác minh theo số liệu giả lập, mỗi trường hợp mất khoảng 5–10 phút. |
+| 5  | Lặp lại / Thủ công  | Phải tổng hợp thông tin các sự cố phát sinh trong ngày từ nhiều nguồn khác nhau trước khi đưa vào báo cáo.   | Nhân viên IT + quản lý  | Khoảng 30–50 sự cố/ngày, thông tin được ghi nhận từ 2–3 nguồn khác nhau.  |
+| 6  | Lặp lại  | Phải tổng hợp tình hình nhân sự vận hành tại các tuyến vào báo cáo cuối ngày.  | Nhân viên IT + quản lý vận hành | Thực hiện 1 lần/ngày, theo dõi khoảng 5–10 tuyến, mất khoảng 10 phút. |
+| 7  | Tốn thời gian   | Phải chuyển các số liệu và thông tin đã thu thập sang mẫu Báo cáo hoạt động hàng ngày.| Nhân viên IT | Mất khoảng 10 phút/ngày, phần lớn thao tác là copy/paste và format.|
+| 8  | AI có thể tốt hơn   | Từ nhiều dữ liệu sự cố và vận hành, việc xác định điểm bất thường hoặc thông tin cần chú ý chưa được tự động tổng hợp.  | Nhân viên IT + quản lý  | Mỗi ngày có khoảng 3–5 sự cố/thông tin cần xem xét, mất khoảng 10 phút để tổng hợp và xác định điểm đáng chú ý. |
+| 9  | Pain từ người khác  | Quản lý đôi khi phải hỏi lại thông tin chi tiết của sự cố hoặc số liệu trong báo cáo.| Quản lý + nhân viên IT  | Theo số liệu giả lập, khoảng 1–2 lần/tuần, thường hỏi lại về thời gian, nguyên nhân hoặc trạng thái sự cố.  |
+| 10 | Lặp lại / Tốn thời gian | Toàn bộ quy trình tổng hợp Báo cáo hoạt động hàng ngày phải thực hiện thủ công dù cấu trúc báo cáo gần như giống nhau mỗi ngày. | Nhân viên IT | Thực hiện 5 ngày/tuần, tổng thời gian khoảng 60 phút/ngày, tương đương khoảng 5 giờ/tuần.    |
 
 
 > Gợi ý tự soi:
