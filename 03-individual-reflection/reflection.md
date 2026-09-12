@@ -4,10 +4,10 @@
 
 ## Thông tin cá nhân
 
-- Họ và tên:
-- Mã học viên:
-- Nhóm:
-- Candidate problem nhóm chọn:
+- Họ và tên: Nguyễn Thu Hằng
+- Mã học viên: 2A202602463
+- Nhóm: C2
+- Candidate problem nhóm chọn: Nhân viên nhập liệu phải đọc và gõ lại thủ công dữ liệu từ báo cáo/biểu mẫu viết tay vào Excel, khiến bước nhập liệu chiếm phần lớn thời gian xử lý và dễ phát sinh sai sót khi số lượng phiếu nhiều hoặc chữ viết khó đọc.
 
 ---
 
